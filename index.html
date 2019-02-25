@@ -6,10 +6,14 @@
   </head>
   <body>
     <div class="filter">
-
         <input type="text" onkeyup="myFunction(this.value, 1)" placeholder="Cerca Localitá">
         <input type="text" onkeyup="myFunction(this.value, 3)" placeholder="Cerca Tipo">
         <input type="text" onkeyup="myFunction(this.value, 2)" placeholder="Filtra per sesso">
+	<select name="menu1" onchange="myFunction(this.value, 2)">
+		<option value=''>Seleziona Sesso</option>
+		<option value='M'>Maschili</option>
+		<option value='F'>Femminili</option>
+	</select>    
     </div>
     <div id="overtheblockTable">
       
